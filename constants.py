@@ -1,2 +1,0 @@
-BOT_TOKEN = "7532531018:AAH9q6j4ptVyHObjglAjSAXyJZe1pBsxbXk"
-HOST = 'http://127.0.0.1:8000'
