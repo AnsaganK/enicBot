@@ -26,6 +26,7 @@ class ContactForm(StatesGroup):
 # /start
 @dp.message(F.text == "/start")
 async def cmd_start(message: Message, state: FSMContext):
+    print(message.from_user.id)
     await state.clear()  # На всякий случай сбрасываем прошлое состояние
     kb = ReplyKeyboardMarkup(
         keyboard=[
