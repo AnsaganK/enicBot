@@ -1,0 +1,2 @@
+BOT_TOKEN = "7532531018:AAH3Znkc2M4o4M7jpVCFetBMmL_oahcpPGs"
+HOST = 'http://127.0.0.1:8000'
